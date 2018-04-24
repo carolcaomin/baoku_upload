@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="见证人进行项目登记（分采）审核"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.768">
+  <properties />
+  
+  
+            <testcase name="assginCheckProFc" time="34.768" classname="test.publictest.CheckTest" />
+      
+</testsuite>

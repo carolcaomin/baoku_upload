@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="baokuAutotest" duration-ms="29790" started-at="2018-04-24T02:43:13Z" finished-at="2018-04-24T02:43:43Z">
+    <groups>
+    </groups>
+    <test name="旅行意外险" duration-ms="29790" started-at="2018-04-24T02:43:13Z" finished-at="2018-04-24T02:43:43Z">
+      <class name="test.InitTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:test.InitTest@5a63f509]" name="init" is-config="true" duration-ms="5305" started-at="2018-04-24T10:43:13Z" finished-at="2018-04-24T10:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[findelement/common/public.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- test.InitTest -->
+      <class name="test.AnlianTravelTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-04-24T10:43:19Z" finished-at="2018-04-24T10:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="travelMethod(java.lang.String)[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="travelMethod" duration-ms="14318" started-at="2018-04-24T10:43:19Z" finished-at="2018-04-24T10:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[嗨游版]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelMethod -->
+        <test-method status="PASS" signature="basicOpe(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="basicOpe" duration-ms="10151" started-at="2018-04-24T10:43:33Z" finished-at="2018-04-24T10:43:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张三风]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[110101198001010256]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13533869181]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1376361268@qq.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicOpe -->
+      </class> <!-- test.AnlianTravelTest -->
+      <class name="test.FirstTest">
+        <test-method status="PASS" signature="firstOperate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.FirstTest@6e4784bc]" name="firstOperate" duration-ms="7079" started-at="2018-04-24T10:43:19Z" finished-at="2018-04-24T10:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tradePlatform]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13533869181]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2762]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstOperate -->
+      </class> <!-- test.FirstTest -->
+    </test> <!-- 旅行意外险 -->
+  </suite> <!-- baokuAutotest -->
+</testng-results>

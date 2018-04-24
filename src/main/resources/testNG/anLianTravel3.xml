@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="baokuAutotest" parallel="classes" thread-count="5" allow-return-values="true">
+
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners> 
+	
+	<parameter name="telNum" value="13533869181"/>
+	<parameter name="VerificationCode" value="2762"/>	
+	
+	<!--嗨游版-->  	
+	<test name="旅行意外险">
+	<parameter name="xmlFile" value="findelement/common/public.xml"/>
+	<parameter name="systemUrl" value="tradePlatform"/>
+	<parameter name="travelType" value="嗨游版"/>
+	<parameter name="nameHolder" value="张三风"/>
+	<parameter name="idHolder" value="110101198001010256"/>
+	<parameter name="telHolder" value="13533869181"/>
+	<parameter name="emailHolder" value="1376361268@qq.com"/>
+	
+	<classes>
+		<!--初始化  -->
+  		<class name="test.InitTest" >
+  		 	<methods>
+  			<include name="init" />
+  			</methods>
+  		</class>
+  		<!-- 首页操作 -->
+  		<class name="test.FirstTest" >
+  		 	<methods>
+  			<include name="firstOperate" />
+  			</methods>
+  		</class>
+  		<!--嗨游版 -->
+  		<class name="test.AnlianTravelTest">
+  			<methods>
+  			<include name="travelMethod"/>
+  			<include name="basicOpe"/>
+  			</methods>
+  			</class>
+  	</classes>
+  	</test>
+  	
+  	
+  	
+</suite>

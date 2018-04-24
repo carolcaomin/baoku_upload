@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="采购计划新增"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="53.466">
+  <properties />
+  
+  
+            <testcase name="foundSource" time="2.905" classname="test.PurPlanTest" />
+                <testcase name="demandDetails" time="16.335" classname="test.PurPlanTest" />
+                <testcase name="seviceDemand" time="0.959" classname="test.PurPlanTest" />
+                <testcase name="purPlan" time="26.370" classname="test.PurPlanTest" />
+                <testcase name="addAccessory" time="6.897" classname="test.PurPlanTest" />
+      
+</testsuite>

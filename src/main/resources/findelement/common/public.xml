@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true"/>
+	<includePage pageConfig="findelement/common/first.xml"/>
+	<includePage pageConfig="findelement/common/anlianTravel.xml"/>
+	
+	
+	<!-- 首页登操作-->
+	<pages pagePackage="page">
+		<page class="FirstPage" url="${param.url}" dataSource="firsttest">
+			<field name="firstButton" byXpath="//*[@id='app']/div[3]/div/div[3]/div[2]/div[1]/img" type="button"/>
+		</page>
+	</pages>
+</autotest>

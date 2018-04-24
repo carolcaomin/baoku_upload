@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [purPlan]" parallel="classes" allow-return-values="true">
+  <parameter name="purPlanName" value="0921集中公开预审不分包计划"/>
+  <parameter name="ppp" value="false"/>
+  <parameter name="qualificationType" value="true"/>
+  <parameter name="subPackage" value="false"/>
+  <parameter name="composeType" value="集中采购"/>
+  <parameter name="accessoryPath" value="D:\\文件上传.pdf"/>
+  <parameter name="filePath" value="D:\\文件上传.pdf"/>
+  <parameter name="projectName" value="0921集中公开预审不分包项目"/>
+  <parameter name="items" value="1"/>
+  <parameter name="procurementType" value="公开招标"/>
+  <parameter name="tradeType" value="服务"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="采购计划新增(failed)" parallel="classes">
+    <parameter name="xmlFile" value="findelement/common/public.xml"/>
+    <parameter name="systemUrl" value="tradePlatform"/>
+    <parameter name="userRole" value="cgr"/>
+    <classes>
+      <class name="test.PurPlanTest">
+        <methods>
+          <include name="foundSource"/>
+          <include name="purPlan"/>
+          <include name="seviceDemand"/>
+          <include name="demandDetails"/>
+          <include name="addAccessory"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.PurPlanTest -->
+    </classes>
+  </test> <!-- 采购计划新增(failed) -->
+  <test name="窗口受理人审核(failed)" parallel="classes">
+    <parameter name="checkResultType" value="通过"/>
+    <parameter name="xmlFile" value="findelement/common/public.xml"/>
+    <parameter name="systemUrl" value="tradePlatform"/>
+    <parameter name="userRole" value="ckslr"/>
+    <classes>
+      <class name="test.publictest.CheckTest">
+        <methods>
+          <include name="projectRecMenu"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.publictest.CheckTest -->
+    </classes>
+  </test> <!-- 窗口受理人审核(failed) -->
+  <test name="窗口受理人集中采购项目登记(failed)" parallel="classes">
+    <parameter name="xmlFile" value="findelement/common/public.xml"/>
+    <parameter name="systemUrl" value="tradePlatform"/>
+    <parameter name="userRole" value="ckslr"/>
+    <classes>
+      <class name="test.ProRecJZTest">
+        <methods>
+          <include name="baseInforJZ"/>
+          <include name="beforeClass"/>
+          <include name="purPlanJZ"/>
+        </methods>
+      </class> <!-- test.ProRecJZTest -->
+    </classes>
+  </test> <!-- 窗口受理人集中采购项目登记(failed) -->
+</suite> <!-- Failed suite [purPlan] -->

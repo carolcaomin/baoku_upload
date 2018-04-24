@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="0" ignored="5" total="13" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="purPlan" duration-ms="21012" started-at="2017-09-21T10:24:42Z" finished-at="2017-09-21T10:25:03Z">
+    <groups>
+    </groups>
+    <test name="采购计划新增" duration-ms="9520" started-at="2017-09-21T10:24:42Z" finished-at="2017-09-21T10:24:51Z">
+      <class name="test.publictest.LogoutTest">
+        <test-method status="SKIP" signature="logout()[pri:0, instance:test.publictest.LogoutTest@10e41621]" name="logout" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- test.publictest.LogoutTest -->
+      <class name="test.PurPlanTest">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:test.PurPlanTest@e056f20]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="purPlan(java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:test.PurPlanTest@e056f20]" name="purPlan" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purPlan -->
+        <test-method status="SKIP" signature="demandDetails(java.lang.String)[pri:0, instance:test.PurPlanTest@e056f20]" name="demandDetails" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demandDetails -->
+        <test-method status="SKIP" signature="foundSource()[pri:0, instance:test.PurPlanTest@e056f20]" name="foundSource" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foundSource -->
+        <test-method status="SKIP" signature="seviceDemand()[pri:0, instance:test.PurPlanTest@e056f20]" name="seviceDemand" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seviceDemand -->
+        <test-method status="SKIP" signature="addAccessory(java.lang.String)[pri:0, instance:test.PurPlanTest@e056f20]" name="addAccessory" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccessory -->
+      </class> <!-- test.PurPlanTest -->
+      <class name="test.publictest.InitTest">
+        <test-method status="FAIL" signature="init(java.lang.String)[pri:0, instance:test.publictest.InitTest@6e4784bc]" name="init" is-config="true" duration-ms="9441" started-at="2017-09-21T18:24:42Z" finished-at="2017-09-21T18:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[findelement/common/public.xml]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.publictest.LoginTest@34b7ac2f]" name="login" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.publictest.InitTest -->
+    </test> <!-- 采购计划新增 -->
+    <test name="窗口受理人审核" duration-ms="6150" started-at="2017-09-21T10:24:51Z" finished-at="2017-09-21T10:24:57Z">
+      <class name="test.publictest.LogoutTest">
+        <test-method status="SKIP" signature="logout()[pri:0, instance:test.publictest.LogoutTest@4ac3c60d]" name="logout" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:57Z" finished-at="2017-09-21T18:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- test.publictest.LogoutTest -->
+      <class name="test.publictest.CheckTest">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:test.publictest.CheckTest@3911c2a7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:57Z" finished-at="2017-09-21T18:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="projectRecMenu(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.publictest.CheckTest@3911c2a7]" name="projectRecMenu" duration-ms="0" started-at="2017-09-21T18:24:57Z" finished-at="2017-09-21T18:24:57Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectRecMenu -->
+      </class> <!-- test.publictest.CheckTest -->
+      <class name="test.publictest.InitTest">
+        <test-method status="FAIL" signature="init(java.lang.String)[pri:0, instance:test.publictest.InitTest@31368b99]" name="init" is-config="true" duration-ms="6122" started-at="2017-09-21T18:24:51Z" finished-at="2017-09-21T18:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[findelement/common/public.xml]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.publictest.LoginTest@1725dc0f]" name="login" is-config="true" duration-ms="0" started-at="2017-09-21T18:24:57Z" finished-at="2017-09-21T18:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.publictest.InitTest -->
+    </test> <!-- 窗口受理人审核 -->
+    <test name="窗口受理人集中采购项目登记" duration-ms="5254" started-at="2017-09-21T10:24:58Z" finished-at="2017-09-21T10:25:03Z">
+      <class name="test.ProRecJZTest">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:test.ProRecJZTest@3daa422a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-21T18:25:03Z" finished-at="2017-09-21T18:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="purPlanJZ(java.lang.String)[pri:0, instance:test.ProRecJZTest@3daa422a]" name="purPlanJZ" duration-ms="0" started-at="2017-09-21T18:25:03Z" finished-at="2017-09-21T18:25:03Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purPlanJZ -->
+        <test-method status="SKIP" signature="baseInforJZ(java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:test.ProRecJZTest@3daa422a]" name="baseInforJZ" duration-ms="0" started-at="2017-09-21T18:25:03Z" finished-at="2017-09-21T18:25:03Z">
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseInforJZ -->
+      </class> <!-- test.ProRecJZTest -->
+      <class name="test.publictest.LogoutTest">
+        <test-method status="SKIP" signature="logout()[pri:0, instance:test.publictest.LogoutTest@31c88ec8]" name="logout" is-config="true" duration-ms="0" started-at="2017-09-21T18:25:03Z" finished-at="2017-09-21T18:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- test.publictest.LogoutTest -->
+      <class name="test.publictest.InitTest">
+        <test-method status="FAIL" signature="init(java.lang.String)[pri:0, instance:test.publictest.InitTest@39529185]" name="init" is-config="true" duration-ms="5224" started-at="2017-09-21T18:24:58Z" finished-at="2017-09-21T18:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[findelement/common/public.xml]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.springframework.beans.factory.NoSuchBeanDefinitionException">
+            <message>
+              <![CDATA[No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.springframework.beans.factory.NoSuchBeanDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.publictest.LoginTest@72f926e6]" name="login" is-config="true" duration-ms="0" started-at="2017-09-21T18:25:03Z" finished-at="2017-09-21T18:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.publictest.InitTest -->
+    </test> <!-- 窗口受理人集中采购项目登记 -->
+  </suite> <!-- purPlan -->
+</testng-results>

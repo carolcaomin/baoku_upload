@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-purPlan">
+              <span class="suite-name border-skipped">purPlan</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-purPlan">
+                    <span>D:\Users\Administrator\workspace\haikouDemo\src\main\resources\testNG\jz\gk\ys\jz_gk_ys_subpkgn.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-purPlan">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-purPlan">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-purPlan">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-purPlan">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-purPlan">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-purPlan">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-purPlan" class="hide-methods skipped suite-purPlan"> (hide)</a> <!-- hide-methods skipped suite-purPlan -->
+                      <a href="#" panel-name="suite-purPlan" class="show-methods skipped suite-purPlan"> (show)</a> <!-- show-methods skipped suite-purPlan -->
+                    </span>
+                    <div class="method-list-content skipped suite-purPlan">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.PurPlanTest" hash-for-method="addAccessory">addAccessory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.ProRecJZTest" hash-for-method="baseInforJZ">baseInforJZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.PurPlanTest" hash-for-method="demandDetails">demandDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.PurPlanTest" hash-for-method="foundSource">foundSource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.publictest.CheckTest" hash-for-method="projectRecMenu">projectRecMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.PurPlanTest" hash-for-method="purPlan">purPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.ProRecJZTest" hash-for-method="purPlanJZ">purPlanJZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-purPlan" title="test.PurPlanTest" hash-for-method="seviceDemand">seviceDemand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-purPlan -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-purPlan" class="panel purPlan">
+          <div class="suite-purPlan-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.publictest.CheckTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectRecMenu">
+                  </a> <!-- projectRecMenu -->
+                  <span class="method-name">projectRecMenu</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-purPlan-class-skipped -->
+          <div class="suite-purPlan-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.PurPlanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAccessory">
+                  </a> <!-- addAccessory -->
+                  <span class="method-name">addAccessory</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demandDetails">
+                  </a> <!-- demandDetails -->
+                  <span class="method-name">demandDetails</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="foundSource">
+                  </a> <!-- foundSource -->
+                  <span class="method-name">foundSource</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="purPlan">
+                  </a> <!-- purPlan -->
+                  <span class="method-name">purPlan</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seviceDemand">
+                  </a> <!-- seviceDemand -->
+                  <span class="method-name">seviceDemand</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-purPlan-class-skipped -->
+          <div class="suite-purPlan-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.ProRecJZTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="baseInforJZ">
+                  </a> <!-- baseInforJZ -->
+                  <span class="method-name">baseInforJZ</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="purPlanJZ">
+                  </a> <!-- purPlanJZ -->
+                  <span class="method-name">purPlanJZ</span>
+                  <div class="stack-trace">org.springframework.beans.factory.NoSuchBeanDefinitionException: No unique bean of type [page.publicpage.LoginPage] is defined: expected single bean but found 0: 
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:271)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1101)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:463)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:420)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:386)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
+	at com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
+	at test.publictest.InitTest.init(InitTest.java:20)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-purPlan-class-skipped -->
+        </div> <!-- panel purPlan -->
+        <div panel-name="test-xml-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Users\Administrator\workspace\haikouDemo\src\main\resources\testNG\jz\gk\ys\jz_gk_ys_subpkgn.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;purPlan&quot; parallel=&quot;classes&quot; allow-return-values=&quot;true&quot;&gt;
+  &lt;parameter name=&quot;purPlanName&quot; value=&quot;0921集中公开预审不分包计划&quot;/&gt;
+  &lt;parameter name=&quot;ppp&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;qualificationType&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;subPackage&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;composeType&quot; value=&quot;集中采购&quot;/&gt;
+  &lt;parameter name=&quot;accessoryPath&quot; value=&quot;D:\\文件上传.pdf&quot;/&gt;
+  &lt;parameter name=&quot;filePath&quot; value=&quot;D:\\文件上传.pdf&quot;/&gt;
+  &lt;parameter name=&quot;projectName&quot; value=&quot;0921集中公开预审不分包项目&quot;/&gt;
+  &lt;parameter name=&quot;items&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;procurementType&quot; value=&quot;公开招标&quot;/&gt;
+  &lt;parameter name=&quot;tradeType&quot; value=&quot;服务&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;采购计划新增&quot;&gt;
+    &lt;parameter name=&quot;xmlFile&quot; value=&quot;findelement/common/public.xml&quot;/&gt;
+    &lt;parameter name=&quot;systemUrl&quot; value=&quot;tradePlatform&quot;/&gt;
+    &lt;parameter name=&quot;userRole&quot; value=&quot;cgr&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.publictest.InitTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.InitTest --&gt;
+      &lt;class name=&quot;test.publictest.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LoginTest --&gt;
+      &lt;class name=&quot;test.PurPlanTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+          &lt;include name=&quot;purPlan&quot;/&gt;
+          &lt;include name=&quot;demandDetails&quot;/&gt;
+          &lt;include name=&quot;foundSource&quot;/&gt;
+          &lt;include name=&quot;seviceDemand&quot;/&gt;
+          &lt;include name=&quot;addAccessory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.PurPlanTest --&gt;
+      &lt;class name=&quot;test.publictest.LogoutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LogoutTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 采购计划新增 --&gt;
+  &lt;test name=&quot;窗口受理人审核&quot;&gt;
+    &lt;parameter name=&quot;checkResultType&quot; value=&quot;通过&quot;/&gt;
+    &lt;parameter name=&quot;xmlFile&quot; value=&quot;findelement/common/public.xml&quot;/&gt;
+    &lt;parameter name=&quot;systemUrl&quot; value=&quot;tradePlatform&quot;/&gt;
+    &lt;parameter name=&quot;userRole&quot; value=&quot;ckslr&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.publictest.InitTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.InitTest --&gt;
+      &lt;class name=&quot;test.publictest.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LoginTest --&gt;
+      &lt;class name=&quot;test.publictest.CheckTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+          &lt;include name=&quot;projectRecMenu&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.CheckTest --&gt;
+      &lt;class name=&quot;test.publictest.LogoutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LogoutTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 窗口受理人审核 --&gt;
+  &lt;test name=&quot;窗口受理人集中采购项目登记&quot;&gt;
+    &lt;parameter name=&quot;xmlFile&quot; value=&quot;findelement/common/public.xml&quot;/&gt;
+    &lt;parameter name=&quot;systemUrl&quot; value=&quot;tradePlatform&quot;/&gt;
+    &lt;parameter name=&quot;userRole&quot; value=&quot;ckslr&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.publictest.InitTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.InitTest --&gt;
+      &lt;class name=&quot;test.publictest.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LoginTest --&gt;
+      &lt;class name=&quot;test.ProRecJZTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+          &lt;include name=&quot;purPlanJZ&quot;/&gt;
+          &lt;include name=&quot;baseInforJZ&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.ProRecJZTest --&gt;
+      &lt;class name=&quot;test.publictest.LogoutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.publictest.LogoutTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 窗口受理人集中采购项目登记 --&gt;
+&lt;/suite&gt; &lt;!-- purPlan --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for purPlan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">采购计划新增 (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">窗口受理人审核 (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">窗口受理人集中采购项目登记 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for purPlan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for purPlan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_purPlan');
+function tableData_purPlan() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'purPlan')
+data.setCell(0, 2, 'test.PurPlanTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'seviceDemand')
+data.setCell(1, 2, 'test.PurPlanTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'demandDetails')
+data.setCell(2, 2, 'test.PurPlanTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addAccessory')
+data.setCell(3, 2, 'test.PurPlanTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'foundSource')
+data.setCell(4, 2, 'test.PurPlanTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'projectRecMenu')
+data.setCell(5, 2, 'test.publictest.CheckTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'purPlanJZ')
+data.setCell(6, 2, 'test.ProRecJZTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'baseInforJZ')
+data.setCell(7, 2, 'test.ProRecJZTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['purPlan']= { tableData: data, tableDiv: 'times-div-purPlan'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-purPlan">
+              </div> <!-- times-div-purPlan -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for purPlan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.publictest.CheckTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkResult</span>
+                <br/>
+                <span class="ignored-method-name">checkProRecFC</span>
+                <br/>
+                <span class="ignored-method-name">checkProRecJZ</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ProRecJZTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addDetail</span>
+                <br/>
+                <span class="ignored-method-name">addBid</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-purPlan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.publictest.InitTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">init(findelement/common/public.xml)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">init(findelement/common/public.xml)</span>
+                <span class="method-start">9571 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">init(findelement/common/public.xml)</span>
+                <span class="method-start">15752 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

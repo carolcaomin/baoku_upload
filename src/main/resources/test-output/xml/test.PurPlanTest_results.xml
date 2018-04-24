@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="采购计划新增"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="6"
+           time="0.000">
+  <properties />
+  
+            <testcase name="beforeClass" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+            <testcase name="purPlan" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+            <testcase name="seviceDemand" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+            <testcase name="demandDetails" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+            <testcase name="addAccessory" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+            <testcase name="foundSource" time="0.0" classname="test.PurPlanTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

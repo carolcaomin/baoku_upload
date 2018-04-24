@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [baokuAutotest]" parallel="classes" allow-return-values="true">
+  <parameter name="travelType" value="嗨游版"/>
+  <parameter name="idHolder" value="110101198001010256"/>
+  <parameter name="telHolder" value="13533869181"/>
+  <parameter name="VerificationCode" value="2762"/>
+  <parameter name="telNum" value="13533869181"/>
+  <parameter name="nameHolder" value="张三风"/>
+  <parameter name="xmlFile" value="findelement/common/public.xml"/>
+  <parameter name="systemUrl" value="tradePlatform"/>
+  <parameter name="emailHolder" value="1376361268@qq.com"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="旅行意外险(failed)" parallel="classes">
+    <parameter name="travelType" value="嗨游版"/>
+    <parameter name="idHolder" value="110101198001010256"/>
+    <parameter name="telHolder" value="13533869181"/>
+    <parameter name="nameHolder" value="张三风"/>
+    <parameter name="xmlFile" value="findelement/common/public.xml"/>
+    <parameter name="systemUrl" value="tradePlatform"/>
+    <parameter name="emailHolder" value="1376361268@qq.com"/>
+    <classes>
+      <class name="test.InitTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- test.InitTest -->
+      <class name="test.AnlianTravelTest">
+        <methods>
+          <include name="travelMethod" invocation-numbers="0"/>
+          <include name="basicOpe" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.AnlianTravelTest -->
+    </classes>
+  </test> <!-- 旅行意外险(failed) -->
+</suite> <!-- Failed suite [baokuAutotest] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="新增无采购计划项目"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="111.502">
+  <properties />
+  
+  
+            <testcase name="qualifAnnouncement" time="64.367" classname="test.ProRecFSNoplanTest" />
+                <testcase name="baseInfor" time="47.135" classname="test.ProRecFSNoplanTest" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="采购部领导审核 和分派见证人"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.293">
+  <properties />
+  
+  
+            <testcase name="assignWCheck" time="22.293" classname="test.AssignWTest" />
+      
+</testsuite>

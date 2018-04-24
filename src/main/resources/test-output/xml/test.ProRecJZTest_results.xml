@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="窗口受理人集中采购项目登记"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.000">
+  <properties />
+  
+            <testcase name="beforeClass" time="0.0" classname="test.ProRecJZTest">
+          <skipped />
+    </testcase>
+            <testcase name="purPlanJZ" time="0.0" classname="test.ProRecJZTest">
+          <skipped />
+    </testcase>
+            <testcase name="baseInforJZ" time="0.0" classname="test.ProRecJZTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

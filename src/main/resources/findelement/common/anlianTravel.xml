@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
+	<!-- 首页登操作-->
+	<pages pagePackage="page">
+		<page class="AnlianTravelPage" dataSource="anliantest">
+			<!-- 安联旅意险登录图片 -->
+			<field name="loginPicture" byXpath="//div[@id='app']/div[3]/div/div[3]/div[3]/div[2]/a/img" type="button"/>
+			<!-- 惠游版 -->
+			<!-- 立即投保 -->
+			<field name="insuredBtn" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div[2]/div/div/div[1]/button" type="button"/>
+			<!-- 畅游版 -->                     
+			<field name="changTravelBtn" byXpath="//li[text()='畅游版']" type="button"/>
+			<!-- 嗨游版 -->
+			<field name="haiBtn" byXpath="//li[text()='嗨游版']" type="button"/>
+			
+			<!-- 投保信息页 -->
+			<!-- 起保日期 -->
+			<field name="beginDate" byXpath="//a[@data-confirm-text='确定']/div[2]" type="button"/>
+			<!-- ok -->
+			<field name="okBtn" byXpath="//div[text()='ok']" type="button"/>
+						
+			<!-- 投保人姓名 -->
+			<field name="nameHolder" byXpath="//input[@placeholder='请输入投保人的姓名']" type="input"/>
+			<!-- 身份证号 -->
+			<field name="idHolder" byXpath="//input[@placeholder='请输入投保人的身份证号']" type="input"/>
+			<!-- 手机号 -->
+			<field name="telHolder" byXpath="//input[@placeholder='请输入投保人的手机号']" type="input"/>
+			<!-- 电子保单邮件 -->
+			<field name="emailHolder" byXpath="//input[@placeholder='用于接收电子保单邮件']" type="input"/>
+			
+			<!-- 被保人信息  本人 -->
+			<field name="myselfBtn" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div/div/div[2]/div/div[3]/div/div/div[1]" type="button"/>
+			<!-- 勾选协议 -->
+			<field name="check" byXpath="//div[@id='app']/div[3]/div/div/span/i" type="button"/>
+			<!-- 立即投保 -->
+			<field name="sureBtn" byXpath="//div[text()='立即投保']" type="button"/>
+			
+			
+		</page>
+	</pages>
+</autotest>

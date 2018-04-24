@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://datasource.glodon.com"
+	xmlns:glodon="http://datasource.glodon.com"
+	elementFormDefault="qualified">
+	<xs:element name="dataSources">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dataSource" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="page" type="pageType" maxOccurs="unbounded" />
+						</xs:sequence>
+						<xs:attribute name="pageClass" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="pagePackage" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>
+						<![CDATA[公用的Page类包]]>
+					</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="pageType">
+		<xs:sequence>
+			<xs:element name="field" type="pageFieldType" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="pageFieldType">
+		<xs:attribute name="name" type="xs:string" use="required" />
+		<xs:attribute name="data" type="xs:string" use="required" />
+		<xs:attribute name="field" type="xs:string" default="value"></xs:attribute>
+		<xs:attribute name="type" type="glodon:dataTypeEnum" default="simple"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:simpleType name="dataTypeEnum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="simple"></xs:enumeration>
+			<xs:enumeration value="groovy"></xs:enumeration>
+			<xs:enumeration value="javascript"></xs:enumeration>
+			<xs:enumeration value="encrypt"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
