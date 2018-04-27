@@ -15,6 +15,7 @@ import com.glodon.autotest.web.framework.settings.SettingUtil;
 public class InitTest {
   public static SettingUtil settingUtil;
   private static final Logger logger = LoggerFactory.getLogger(InitTest.class);
+ 
   @Parameters({"xmlFile"})
   @BeforeTest
   public static void init(String xmlFile) throws IOException, DocumentException, SAXException {

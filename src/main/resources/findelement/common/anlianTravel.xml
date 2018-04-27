@@ -2,14 +2,17 @@
 <autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
 	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
-	<!-- 首页登操作-->
+	
+	<!-- 安联旅意险   元素定位-->
 	<pages pagePackage="page">
-		<page class="AnlianTravelPage" dataSource="anliantest">
+		<page class="AnlianTravelPage">
 			<!-- 安联旅意险登录图片 -->
 			<field name="loginPicture" byXpath="//div[@id='app']/div[3]/div/div[3]/div[3]/div[2]/a/img" type="button"/>
 			<!-- 惠游版 -->
 			<!-- 立即投保 -->
 			<field name="insuredBtn" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div[2]/div/div/div[1]/button" type="button"/>
+			<field name="insureBtn2" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div[2]/div/div/div/button" type="button"/>
+											
 			<!-- 畅游版 -->                     
 			<field name="changTravelBtn" byXpath="//li[text()='畅游版']" type="button"/>
 			<!-- 嗨游版 -->

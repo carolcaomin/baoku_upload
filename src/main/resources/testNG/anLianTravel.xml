@@ -6,20 +6,19 @@
 <listener class-name="org.uncommons.reportng.HTMLReporter" />
 <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 </listeners> 
-	
-	<parameter name="telNum" value="13533869181"/>
-	<parameter name="VerificationCode" value="2762"/>	
-	
-	<parameter name="nameHolder" value="曹敏"/>
-	<parameter name="idHolder" value="430482199103162166"/>
-	<parameter name="telHolder" value="13533869181"/>
-	<parameter name="emailHolder" value="1376361268@qq.com"/>
-	
+		
 	<!--惠游版-->  	
 	<test name="旅行意外险">
 	<parameter name="xmlFile" value="findelement/common/public.xml"/>
-	<parameter name="systemUrl" value="tradePlatform"/>
+	<parameter name="systemUrl" value="tradePlatform1"/>
+	<parameter name="telNum" value="13533869181"/>
+	<parameter name="VerificationCode" value="2762"/>
 	<parameter name="travelType" value="惠游版"/>	
+	
+	<parameter name="nameHolder" value="张三丰"/>
+	<parameter name="idHolder" value="430482199103162166"/>
+	<parameter name="telHolder" value="13533869181"/>
+	<parameter name="emailHolder" value="1376361268@qq.com"/>
 	<classes>
 		<!--初始化  -->
   		<class name="test.InitTest" >
@@ -30,19 +29,17 @@
   		<!-- 首页操作 -->
   		<class name="test.FirstTest" >
   		 	<methods>
-  			<include name="firstOperate" />
+  			<include name="login" />
   			</methods>
   		</class>
   		<!-- 惠游版 -->
   		<class name="test.AnlianTravelTest">
   			<methods>
   			<include name="travelMethod"/>
-  			<include name="basicOpe"/>
+  			<include name="basic"/>
   			</methods>
   			</class>
   	</classes>
   	</test>
-  	
-  	
   	
 </suite>

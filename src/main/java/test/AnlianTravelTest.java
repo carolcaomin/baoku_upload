@@ -28,41 +28,37 @@ public class AnlianTravelTest{
     public void beforeClass(){  	
     	anlianTravelPage=InitTest.settingUtil.getPage(AnlianTravelPage.class);
     	driver = anlianTravelPage.getEngine().getDriver();
+    	logger.info("-----travalMethod  init-----");
     }
-    
+ 
     @Parameters("travelType")
     @Test
     public void travelMethod(String travelType){
     	logger.info("-----travalMethod-----");
-    	//点击安联旅意险登录图片
-    	anlianTravelPage.getLoginPicture().click();
-    	ThreadUtil.silentSleep(2000);
-    	//滚动条：向下移动
-    	//((JavascriptExecutor)driver).executeScript("window.scrollBy (0,900)");
-		//ThreadUtil.silentSleep(2000);
-
+    	ThreadUtil.silentSleep(3000);
+    	
     	//立即投保
     	anlianTravelPage.getInsuredBtn().click();
 		logger.info("-----立即投保-----");
 		ThreadUtil.silentSleep(3000);
 		
-		if(travelType.equals("惠游版")){
-    		anlianTravelPage.getInsuredBtn().click();
-		}else if(travelType.equals("畅游版")){
-			anlianTravelPage.getChangTravelBtn().click();
-			ThreadUtil.silentSleep(2000);
-        	anlianTravelPage.getInsuredBtn().click();
-    	}else if(travelType.equals("嗨游版")){
-    		anlianTravelPage.getHaiBtn().click();
-    		ThreadUtil.silentSleep(2000);
-        	anlianTravelPage.getInsuredBtn().click();
-    	}
-    	ThreadUtil.silentSleep(2000);
+	    if(travelType.equals("惠游版")){
+	    	anlianTravelPage.getInsureBtn2().click();
+	    }else if(travelType.equals("畅游版")){
+	    	anlianTravelPage.getChangTravelBtn().click();
+	    	anlianTravelPage.getInsureBtn2().click();
+	    }else if(travelType.equals("嗨游版")){
+	    	anlianTravelPage.getHaiBtn().click();
+	    	anlianTravelPage.getInsureBtn2().click();
+	    }
+    	
     }
     
     @Parameters({"nameHolder","idHolder","telHolder","emailHolder"})
     @Test
-    public void basicOpe(String nameHolder,String idHolder,String telHolder,String emailHolder){
+    public void basic(String nameHolder,String idHolder,String telHolder,String emailHolder){
+    	logger.info("-----basicInfo  successful-----");
+    	ThreadUtil.silentSleep(2000);
     	//起保日期
     	anlianTravelPage.getBeginDate().click();
     	ThreadUtil.silentSleep(2000);
@@ -80,4 +76,5 @@ public class AnlianTravelTest{
     	anlianTravelPage.getSureBtn().click();
     	ThreadUtil.silentSleep(2000);
     }
+    
 }

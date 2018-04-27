@@ -24,6 +24,8 @@ public class AnlianTravelPage extends Page {
 	@Autowired
 	private Button okBtn;
 	@Autowired
+	private Button insureBtn2;
+	@Autowired
 	private Button sureBtn;
 	@Autowired
 	private Button beginDate;
@@ -75,6 +77,14 @@ public class AnlianTravelPage extends Page {
 	public void setOkBtn(Button okBtn)
 	{
 		this.okBtn = okBtn;
+	}
+	public Button getInsureBtn2()
+	{
+		return insureBtn2;
+	}
+	public void setInsureBtn2(Button insureBtn2)
+	{
+		this.insureBtn2 = insureBtn2;
 	}
 	public Button getSureBtn()
 	{
