@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
+	
+	<!-- 全家保综合意外险-->
+	<pages pagePackage="page">
+		<page class="AnxinAllFamilyPage">
+			<!-- 立即投保 -->
+			<field name="insureAFBtn" byXpath="//div[@id='app']/div[3]/div/div[2]/div[2]/div/div[1]/button" type="button"/>
+			
+			<field name="nameMainHolder" byXpath="//input[@placeholder='请输入主被保人的姓名']" type="input"/>
+			<field name="idMainHolder" byXpath="//input[@placeholder='请输入主被保人的身份证号']" type="input"/>
+			<field name="telMainHolder" byXpath="//input[@placeholder='用于接受电子保单短信']" type="input"/>
+			<field name="emailMainHolder" byXpath="//input[@placeholder='用于接收电子保单邮件']" type="input"/>
+			
+			<!-- 附被保人信息 -->
+			<field name="relationshipHolder" byXpath="//div[@id='app']/div[3]/div/div[2]/div/div/div[2]/div[1]/div[3]/div/div/div[1]" type="button"/>
+			<field name="nameAttachHolder" byXpath="//input[@placeholder='请输入附被保人的姓名']" type="input"/>
+			<field name="idAttachHolder" byXpath="//input[@placeholder='请输入附被保人的身份证号']" type="input"/>
+			
+			<field name="gouxuanAFBtn" byXpath="//div[@id='app']/div[3]/div/span/i" type="button"/>
+			<!-- 立即投保 -->
+			<field name="lijiAFBtn" byXpath="//div[text()='立即投保']" type="button"/>
+			
+		</page>
+	</pages>
+</autotest>

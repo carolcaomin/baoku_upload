@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="安心综合医疗保险"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.652">
+  <properties />
+  
+  
+            <testcase name="basicComprehens" time="21.652" classname="test.AnxinComprehensTest" />
+      
+</testsuite>

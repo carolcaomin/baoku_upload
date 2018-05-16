@@ -4,6 +4,11 @@
 	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true"/>
 	<includePage pageConfig="findelement/common/first.xml"/>
 	<includePage pageConfig="findelement/common/anlianTravel.xml"/>
+	<includePage pageConfig="findelement/common/anxinEFamily.xml"/>
+	<includePage pageConfig="findelement/common/anxinHospital.xml"/>
+	<includePage pageConfig="findelement/common/anxinComprehens.xml"/>
+	<includePage pageConfig="findelement/common/anxinHosCost.xml"/>
+	<includePage pageConfig="findelement/common/anxinAllFamily.xml"/>
 	
 	
 	<!-- 首页登操作-->

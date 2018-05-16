@@ -34,9 +34,14 @@ public class AnlianTravelTest{
     @Parameters("travelType")
     @Test
     public void travelMethod(String travelType){
-    	logger.info("-----travalMethod-----");
-    	ThreadUtil.silentSleep(3000);
-    	
+    	logger.info("-----travalMethod-----");   	
+    	driver.navigate().refresh();		
+    	ThreadUtil.silentSleep(5000);  
+    	//添加断言   获取打开页面标题    
+    	//正确的用户名、密码，登录成功，验证title正确
+    	String title=driver.getTitle();
+    	logger.info("打开的页面标题为："+title);
+    	assert title.equals(title);
     	//立即投保
     	anlianTravelPage.getInsuredBtn().click();
 		logger.info("-----立即投保-----");

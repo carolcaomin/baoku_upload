@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
+	
+	<!-- 安心住院费用医疗保险-->
+	<pages pagePackage="page">
+		<page class="AnxinHosCostPage">
+			<!-- 立即投保 -->
+			<field name="insureHCBtn" byXpath="//div[@id='app']/div[3]/div/div[3]/div[2]/div/div[1]/button" type="button"/>
+			<!-- 以上全无 -->
+			<field name="allNotHCBtn" byXpath="//span[text()='以上全无']" type="button"/>
+			
+			<field name="nameHCHolder" byXpath="//input[@placeholder='请输入投保人的姓名']" type="input"/>
+			<field name="idHCHolder" byXpath="//input[@placeholder='请输入投保人的身份证号']" type="input"/>
+			<field name="telHCHolder" byXpath="//input[@placeholder='请输入投保人的手机号']" type="input"/>
+			<field name="emailHCHolder" byXpath="//input[@placeholder='用于接收电子保单邮件']" type="input"/>
+			
+			<field name="shebaoHCBtn" byXpath="//div[@id='app']/div[3]/div/div[2]/div/div/div[3]/div/div[3]/div/div/div[1]" type="button"/>
+			<field name="gouxuanHCBtn" byXpath="//div[@id='app']/div[3]/div/span/i" type="button"/>
+					
+			<!-- 立即投保 -->
+			<field name="lijiHCBtn" byXpath="//div[text()='立即投保']" type="button"/>
+			
+		</page>
+	</pages>
+</autotest>

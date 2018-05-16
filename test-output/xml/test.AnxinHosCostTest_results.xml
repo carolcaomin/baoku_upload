@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="安心住院费用医疗保险"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.337">
+  <properties />
+  
+  
+            <testcase name="basicHosCost" time="21.337" classname="test.AnxinHosCostTest" />
+      
+</testsuite>

@@ -1,0 +1,203 @@
+2018-04-27 11:15:04.680 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 11:15:04.682 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 11:15:04.767 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 11:15:11.217 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 11:15:11.218 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 11:15:11.234 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 11:15:11.238 [pool-1-thread-1] INFO  test.InitTest - -------first succesful!-----
+2018-04-27 11:15:12.102 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:15:12.347 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:15:12.486 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:15:12.775 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:15:13.098 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 11:15:15.581 [pool-1-thread-1] INFO  test.InitTest - -------firstOperate end!
+2018-04-27 11:15:28.964 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 11:24:47.538 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 11:24:47.540 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 11:24:47.626 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 11:24:53.216 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 11:24:53.216 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 11:24:53.224 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 11:24:53.234 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 11:24:53.239 [pool-1-thread-1] INFO  test.InitTest - -------first succesful!-----
+2018-04-27 11:24:54.048 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:25:42.193 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 11:25:42.196 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 11:25:42.281 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 11:25:47.837 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 11:25:47.837 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 11:25:47.845 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 11:25:47.853 [pool-1-thread-1] INFO  test.InitTest - -------first succesful!-----
+2018-04-27 11:25:47.854 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 11:25:50.457 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 11:26:18.126 [pool-1-thread-2] WARN  c.g.a.w.f.s.action.SeleniumClick - can not found element.
+2018-04-27 11:26:18.126 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 11:26:23.149 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 11:26:25.430 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:48:13.258 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:48:13.260 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:48:13.347 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:48:19.239 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:48:19.239 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:48:19.246 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:48:19.258 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:48:20.366 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:20.547 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:20.676 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:20.982 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:21.174 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 13:48:37.381 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:48:42.533 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:48:42.536 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:48:42.621 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:48:48.632 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:48:48.632 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:48:48.639 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:48:48.654 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:48:49.614 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:49.884 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:50.014 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:50.280 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:48:50.469 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 13:48:56.646 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:48:59.346 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:48:59.349 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:48:59.432 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:49:05.230 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:49:05.230 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:49:05.238 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:49:05.250 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:49:06.083 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:49:06.371 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:49:06.520 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:49:06.797 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:49:07.096 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 13:49:40.630 [pool-1-thread-2] WARN  c.g.a.w.f.s.action.SeleniumClick - can not found element.
+2018-04-27 13:49:42.631 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----起保日期-----
+2018-04-27 13:50:15.999 [pool-1-thread-2] WARN  c.g.a.w.f.s.action.SeleniumClick - can not found element.
+2018-04-27 13:50:52.347 [pool-1-thread-2] ERROR c.g.a.w.f.s.a.SeleniumValueEditor - can not found element [com.glodon.autotest.web.framework.core.ui.Text@230c5889].
+2018-04-27 13:51:25.906 [pool-1-thread-2] ERROR c.g.a.w.f.s.a.SeleniumValueEditor - can not found element [com.glodon.autotest.web.framework.core.ui.Text@7f0554a9].
+2018-04-27 13:51:33.977 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:51:36.618 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:51:36.621 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:51:36.706 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:51:42.426 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:51:42.426 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:51:42.433 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:51:42.443 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:51:43.650 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:43.859 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:43.991 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:45.460 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:45.563 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 13:51:48.578 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:48.660 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 13:51:48.926 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:51:49.348 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:51:50.223 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - engine closed successful.
+2018-04-27 13:52:32.640 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:52:32.642 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:52:32.730 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:52:38.775 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:52:38.775 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:52:38.782 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:52:38.799 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:52:39.766 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:40.042 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:40.179 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:41.818 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:41.915 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 13:52:44.931 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:45.160 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 13:52:47.182 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:49.262 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----起保日期-----
+2018-04-27 13:52:49.280 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:52.390 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:52.535 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:52.723 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:52.884 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:53.060 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:53.154 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:55.248 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:52:57.516 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 13:52:58.472 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - engine closed successful.
+2018-04-27 13:59:48.785 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 13:59:48.788 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 13:59:48.875 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 13:59:54.536 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 13:59:54.537 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 13:59:54.545 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 13:59:54.553 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 13:59:55.659 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:59:55.836 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:59:56.023 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:59:57.571 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 13:59:57.663 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 14:00:00.677 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:00.900 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 14:00:02.923 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:05.002 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----起保日期-----
+2018-04-27 14:00:05.021 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.128 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.273 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.453 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.607 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.772 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:08.867 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:10.959 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:13.304 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 14:00:14.166 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - engine closed successful.
+2018-04-27 14:00:50.683 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 14:00:50.686 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 14:00:50.770 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 14:00:56.547 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 14:00:56.548 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 14:00:56.559 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 14:00:56.569 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 14:00:57.627 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:57.775 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:57.910 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:59.587 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:00:59.677 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 14:01:02.713 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:02.804 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:02.885 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 14:01:04.904 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:06.985 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----起保日期-----
+2018-04-27 14:01:07.003 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.108 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.258 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.436 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.584 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.743 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:10.837 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:12.927 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:15.270 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 14:01:16.117 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - engine closed successful.
+2018-04-27 14:01:41.412 [main] INFO  c.g.a.w.framework.hook.ShutdownHook - egnine close hook already regist.
+2018-04-27 14:01:41.414 [main] INFO  c.g.a.w.f.settings.SettingUtil - init process done.
+2018-04-27 14:01:41.508 [main] WARN  c.g.a.w.f.settings.SettingUtil - Invalid number width [null] or height [null].
+2018-04-27 14:01:47.238 [main] INFO  test.InitTest - xmlFile=findelement/common/public.xml
+2018-04-27 14:01:47.238 [main] INFO  test.InitTest - -------init succesful!-----
+2018-04-27 14:01:47.248 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod  init-----
+2018-04-27 14:01:47.256 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----travalMethod-----
+2018-04-27 14:01:48.123 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:48.430 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:48.563 [pool-1-thread-1] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:50.273 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:50.361 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----立即投保-----
+2018-04-27 14:01:53.377 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:53.470 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:53.547 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----basicInfo  successful-----
+2018-04-27 14:01:55.569 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:01:57.651 [pool-1-thread-2] INFO  test.AnlianTravelTest - -----起保日期-----
+2018-04-27 14:01:57.671 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:00.771 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:00.924 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:01.114 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:01.262 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:01.418 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:01.515 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:03.604 [pool-1-thread-2] DEBUG c.g.a.w.f.log.LoggerRecordReport - public abstract java.lang.Object com.glodon.autotest.web.framework.core.ElementSearchStrategy.search(com.glodon.autotest.web.framework.core.ui.Element)
+2018-04-27 14:02:05.920 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - prepare to execute engine close operation.
+2018-04-27 14:02:06.794 [Thread-1] INFO  c.g.a.w.framework.hook.ShutdownHook - engine closed successful.

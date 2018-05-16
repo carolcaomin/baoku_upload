@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
+	
+	<!-- 安心e家 元素定位-->
+	<pages pagePackage="page">
+		<page class="AnxinEFamilyPage">
+			<!-- 立即投保 -->
+			<field name="insureBtn" byXpath="//div[@id='app']/div[3]/div/div[3]/div[2]/div/div[1]/button" type="button"/>
+			<!-- 以上全无 -->
+			<field name="allNotBtn" byXpath="//span[text()='以上全无']" type="button"/>
+			
+			<!-- 投保人信息 -->
+			<!-- 请输入你本人的姓名 -->
+			<field name="nameSelf" byXpath="//div[@id='app']/div[3]/div/div[1]/div/div/div[2]/div[2]/input[@placeholder='请输入投保人的姓名']" type="input"/>
+			<!-- 请输入你本人的身份证号 -->
+			<field name="idSelf" byXpath="//div[@id='app']/div[3]/div/div[1]/div/div/div[3]/div[2]/input[@placeholder='请输入投保人的身份证号']" type="input"/>
+			<!-- 请输入你本人的手机号 -->
+			<field name="telSelf" byXpath="//div[@id='app']/div[3]/div/div[1]/div/div/div[4]/div[2]/input[@placeholder='请输入投保人的手机号']" type="input"/>
+			<!-- 用于接收电子保单邮件 -->
+			<field name="emailSelf" byXpath="//div[@id='app']/div[3]/div/div[1]/div/div/div[5]/div[2]/input[@placeholder='用于接收电子保单邮件']" type="input"/>
+			
+			
+			<!-- 被保人1信息 -->
+			<!-- 默认本人 -->
+			<!--有社保  -->
+			<field name="shebaoBtn" byXpath="//div[@id='app']/div[3]/div/div[2]/div/div/div[3]/div/div[3]/div/div/div[1]" type="button"/>
+			
+			<!-- 被保人2信息 -->
+			<field name="shebaoBtnSecond" byXpath="//div[@id='app']/div[3]/div/div[3]/div/div/div[3]/div/div[3]/div/div/div[1]" type="button"/>
+			<field name="nameSecond" byXpath="//div[@id='app']/div[3]/div/div[3]/div/div/div[4]/div[2]/input[@placeholder='请输入被保人的姓名']" type="input"/>
+			<field name="idSecond"   byXpath="//div[@id='app']/div[3]/div/div[3]/div/div/div[5]/div[2]/input[@placeholder='请输入被保人的身份证号']" type="input"/>
+											  
+			<!-- 被保人3信息 -->
+			<field name="shebaoBtnThird" byXpath="//div[@id='app']/div[3]/div/div[4]/div/div/div[3]/div/div[3]/div/div/div[1]" type="button"/>
+			<field name="nameThird" byXpath="//div[@id='app']/div[3]/div/div[4]/div/div/div[4]/div[2]/input[@placeholder='请输入被保人的姓名']" type="input"/>
+			<field name="idThird"   byXpath="//div[@id='app']/div[3]/div/div[4]/div/div/div[5]/div[2]/input[@placeholder='请输入被保人的身份证号']" type="input"/>
+			
+			<field name="gouxuan" byXpath="//div[@id='app']/div[3]/div/span/i" type="button"/>
+			<!-- 立即投保 -->
+			<field name="lijiBtn" byXpath="//div[text()='立即投保']" type="button"/>
+			
+		</page>
+	</pages>
+</autotest>

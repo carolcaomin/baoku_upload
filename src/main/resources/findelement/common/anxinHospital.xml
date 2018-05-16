@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autotest xmlns="http://glodon.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://glodon.com ../../autotest.web.framework.xsd ">
+	<engine driver="firefox" timeout="30" fullScreen="false" maximize="true" />
+	
+	<!-- 安心住院综合医疗保险-->
+	<pages pagePackage="page">
+		<page class="AnxinHospitalPage">
+			<!-- 立即投保 -->
+			<field name="insureHBtn" byXpath="//div[@id='app']/div[3]/div/div[3]/div[2]/div/div[1]/button" type="button"/>
+			<!-- 以上全无 -->
+			<field name="allNotBtn" byXpath="//span[text()='以上全无']" type="button"/>
+			
+			<!-- 请输入被保人的身高 -->
+			<field name="height" byXpath="//input[@placeholder='请输入被保人的身高']" type="input"/>
+			<!-- 请输入被保人的体重-->
+			<field name="weight" byXpath="//input[@placeholder='请输入被保人的体重']" type="input"/>
+			<!-- 下一步 -->
+			<field name="nextBtn" byXpath="//div[@id='app']/div[3]/div/div[7]/button" type="button"/>
+			
+			<field name="nameHolder" byXpath="//input[@placeholder='请输入投保人的姓名']" type="input"/>
+			<field name="idHolder" byXpath="//input[@placeholder='请输入投保人的身份证号']" type="input"/>
+			<field name="telHolder" byXpath="//input[@placeholder='请输入投保人的手机号']" type="input"/>
+			<field name="emailHolder" byXpath="//input[@placeholder='用于接收电子保单邮件']" type="input"/>
+			
+			<field name="shebaoBtn" byXpath="//div[@id='app']/div[3]/div/div[2]/div/div/div[3]/div/div[3]/div/div/div[1]" type="button"/>
+			<field name="gouxuanBtn" byXpath="//div[@id='app']/div[3]/div/span/i" type="button"/>
+					
+			<!-- 立即投保 -->
+			<field name="lijiBtn" byXpath="//div[text()='立即投保']" type="button"/>
+			
+		</page>
+	</pages>
+</autotest>

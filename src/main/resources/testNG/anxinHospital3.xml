@@ -6,19 +6,22 @@
 <listener class-name="org.uncommons.reportng.HTMLReporter" />
 <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 </listeners> 
-		
-	<!--惠游版-->  	
-	<test name="旅行意外险">
+		 	
+	<test name="安心住院综合医疗保险">
 	<parameter name="xmlFile" value="findelement/common/public.xml"/>
-	<parameter name="systemUrl" value="tradePlatform1"/>
+	<parameter name="systemUrl" value="tradePlatform3"/>
 	<parameter name="telNum" value="13533869181"/>
-	<parameter name="VerificationCode" value="2762"/>
-	<parameter name="travelType" value="嗨游版"/>	
-	
-	<parameter name="nameHolder" value="张三丰"/>
-	<parameter name="idHolder" value="430482199103162166"/>
+	<parameter name="VerificationCode" value="4606"/>
+
+	<parameter name="height" value="158"/>
+	<parameter name="weight" value="45"/>
+	<parameter name="nameHolder" value="章子怡"/>
+	<parameter name="idHolder" value="110101199501010011"/>
 	<parameter name="telHolder" value="13533869181"/>
 	<parameter name="emailHolder" value="1376361268@qq.com"/>
+	
+	
+	
 	<classes>
 		<!--初始化  -->
   		<class name="test.InitTest" >
@@ -32,11 +35,9 @@
   			<include name="login" />
   			</methods>
   		</class>
-  		<!-- 惠游版 -->
-  		<class name="test.AnlianTravelTest">
+  		<class name="test.AnxinHospitalTest">
   			<methods>
-  			<include name="travelMethod"/>
-  			<include name="basic"/>
+  			<include name="basicHospital"/>
   			</methods>
   			</class>
   	</classes>

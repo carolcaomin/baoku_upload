@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="旅行意外险"
+<testsuite name="旅行意外险惠游版"
            tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="18.480">
+           time="23.566">
   <properties />
   
   
-            <testcase name="basic" time="12.186" classname="test.AnlianTravelTest" />
-                <testcase name="travelMethod" time="6.294" classname="test.AnlianTravelTest" />
+            <testcase name="basic" time="12.173" classname="test.AnlianTravelTest" />
+                <testcase name="travelMethod" time="11.393" classname="test.AnlianTravelTest" />
       
 </testsuite>

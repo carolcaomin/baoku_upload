@@ -2,27 +2,40 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="baokuAutotest" duration-ms="25281" started-at="2018-04-27T06:01:40Z" finished-at="2018-04-27T06:02:05Z">
+  <suite name="baokuAutotest" duration-ms="29916" started-at="2018-05-14T08:47:23Z" finished-at="2018-05-14T08:47:53Z">
     <groups>
     </groups>
-    <test name="旅行意外险" duration-ms="25281" started-at="2018-04-27T06:01:40Z" finished-at="2018-04-27T06:02:05Z">
-      <class name="test.AnlianTravelTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-04-27T14:01:47Z" finished-at="2018-04-27T14:01:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="travelMethod(java.lang.String)[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="travelMethod" duration-ms="6294" started-at="2018-04-27T14:01:47Z" finished-at="2018-04-27T14:01:53Z">
+    <test name="旅行意外险惠游版" duration-ms="29916" started-at="2018-05-14T08:47:23Z" finished-at="2018-05-14T08:47:53Z">
+      <class name="test.InitTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:test.InitTest@353d0772]" name="init" is-config="true" duration-ms="6332" started-at="2018-05-14T16:47:23Z" finished-at="2018-05-14T16:47:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[嗨游版]]>
+                <![CDATA[findelement/common/public.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- test.InitTest -->
+      <class name="test.AnlianTravelTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.AnlianTravelTest@67a20f67]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-05-14T16:47:29Z" finished-at="2018-05-14T16:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="travelMethod(java.lang.String)[pri:0, instance:test.AnlianTravelTest@67a20f67]" name="travelMethod" duration-ms="11393" started-at="2018-05-14T16:47:29Z" finished-at="2018-05-14T16:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[惠游版]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelMethod -->
-        <test-method status="PASS" signature="basic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.AnlianTravelTest@34b7ac2f]" name="basic" duration-ms="12186" started-at="2018-04-27T14:01:53Z" finished-at="2018-04-27T14:02:05Z">
+        <test-method status="PASS" signature="basic(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.AnlianTravelTest@67a20f67]" name="basic" duration-ms="12173" started-at="2018-05-14T16:47:40Z" finished-at="2018-05-14T16:47:53Z">
           <params>
             <param index="0">
               <value>
@@ -49,25 +62,12 @@
           </reporter-output>
         </test-method> <!-- basic -->
       </class> <!-- test.AnlianTravelTest -->
-      <class name="test.InitTest">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:test.InitTest@5a63f509]" name="init" is-config="true" duration-ms="6780" started-at="2018-04-27T14:01:40Z" finished-at="2018-04-27T14:01:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[findelement/common/public.xml]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- test.InitTest -->
       <class name="test.FirstTest">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.FirstTest@6e4784bc]" name="login" duration-ms="1402" started-at="2018-04-27T14:01:47Z" finished-at="2018-04-27T14:01:48Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.FirstTest@2667f029]" name="login" duration-ms="12405" started-at="2018-05-14T16:47:29Z" finished-at="2018-05-14T16:47:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[tradePlatform]]>
+                <![CDATA[tradePlatform1]]>
               </value>
             </param>
             <param index="1">
@@ -77,7 +77,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[2762]]>
+                <![CDATA[4606]]>
               </value>
             </param>
           </params>
@@ -85,6 +85,6 @@
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- test.FirstTest -->
-    </test> <!-- 旅行意外险 -->
+    </test> <!-- 旅行意外险惠游版 -->
   </suite> <!-- baokuAutotest -->
 </testng-results>

@@ -8,9 +8,10 @@
 		<page class="AnlianTravelPage">
 			<!-- 安联旅意险登录图片 -->
 			<field name="loginPicture" byXpath="//div[@id='app']/div[3]/div/div[3]/div[3]/div[2]/a/img" type="button"/>
-			<!-- 惠游版 -->
+			<!-- 惠游版 -->						
 			<!-- 立即投保 -->
 			<field name="insuredBtn" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div[2]/div/div/div[1]/button" type="button"/>
+					
 			<field name="insureBtn2" byXpath="//div[@id='app']/div[3]/div/div/div[3]/div[2]/div/div/div/button" type="button"/>
 											
 			<!-- 畅游版 -->                     
