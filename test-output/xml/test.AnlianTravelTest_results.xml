@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="23.566">
+           time="24.865">
   <properties />
   
   
-            <testcase name="basic" time="12.173" classname="test.AnlianTravelTest" />
-                <testcase name="travelMethod" time="11.393" classname="test.AnlianTravelTest" />
+            <testcase name="travelMethod" time="14.567" classname="test.AnlianTravelTest" />
+                <testcase name="basic" time="10.298" classname="test.AnlianTravelTest" />
       
 </testsuite>

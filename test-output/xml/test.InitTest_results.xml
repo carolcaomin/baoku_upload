@@ -7,24 +7,124 @@
            time="0.000">
   <properties />
             <testcase name="init" time="0.000" classname="test.InitTest">
-                <failure type="org.openqa.selenium.remote.UnreachableBrowserException"
-                  message="Error communicating with the remote browser. It may have died.
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ozilla.org.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1526974099874	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1526974099875	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1526974099876	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1526974099891	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1526974099892	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1526974099894	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1526974099894	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1526974099895	addons.manager	DEBUG	Starting provider: GMPProvider
+1526974099901	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1526974099902	addons.manager	DEBUG	Starting provider: PluginProvider
+1526974099902	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1526974099903	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1526974101460	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1526974101460	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1526974101461	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1526974101462	DeferredSave.extensions.json	DEBUG	Starting write
+1526974101785	addons.repository	DEBUG	No addons.json found.
+1526974101786	DeferredSave.addons.json	DEBUG	Save changes
+1526974101790	DeferredSave.addons.json	DEBUG	Starting timer
+1526974101821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1526974101826	DeferredSave.extensions.json	DEBUG	Write succeeded
+1526974101827	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1526974101846	DeferredSave.addons.json	DEBUG	Starting write
+1526974101856	DeferredSave.addons.json	DEBUG	Write succeeded
+1526974116394	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1526974116397	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+1526974116591	addons.manager	DEBUG	shutdown
+1526974116591	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1526974116591	addons.xpi	DEBUG	shutdown
+1526974116591	addons.xpi-utils	DEBUG	shutdown
+1526974116592	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1526974116593	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1526974116596	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1526974116598	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1526974116601	addons.manager	DEBUG	Async provider shutdown done
+
 Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:03:33&apos;
 System info: host: &apos;C9BD4J2&apos;, ip: &apos;10.40.2.56&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
-Driver info: driver.version: FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7484a152-797c-44d4-b81a-ddf15fc2b1e8"
+Driver info: driver.version: FirefoxDriver"
               >
-<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+<![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ozilla.org.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1526974099874	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1526974099875	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1526974099876	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1526974099891	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1526974099892	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1526974099894	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1526974099894	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1526974099895	addons.manager	DEBUG	Starting provider: GMPProvider
+1526974099901	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1526974099902	addons.manager	DEBUG	Starting provider: PluginProvider
+1526974099902	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1526974099903	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1526974101460	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1526974101460	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1526974101461	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1526974101462	DeferredSave.extensions.json	DEBUG	Starting write
+1526974101785	addons.repository	DEBUG	No addons.json found.
+1526974101786	DeferredSave.addons.json	DEBUG	Save changes
+1526974101790	DeferredSave.addons.json	DEBUG	Starting timer
+1526974101821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1526974101826	DeferredSave.extensions.json	DEBUG	Write succeeded
+1526974101827	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1526974101846	DeferredSave.addons.json	DEBUG	Starting write
+1526974101856	DeferredSave.addons.json	DEBUG	Write succeeded
+1526974116394	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1526974116397	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+1526974116591	addons.manager	DEBUG	shutdown
+1526974116591	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1526974116591	addons.xpi	DEBUG	shutdown
+1526974116591	addons.xpi-utils	DEBUG	shutdown
+1526974116592	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1526974116593	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1526974116596	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1526974116598	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1526974116601	addons.manager	DEBUG	Async provider shutdown done
+
 Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:03:33'
 System info: host: 'C9BD4J2', ip: '10.40.2.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
 Driver info: driver.version: FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7484a152-797c-44d4-b81a-ddf15fc2b1e8
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-  org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
-  org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
-  com.glodon.autotest.web.framework.selenium.SeleniumEngine.init(SeleniumEngine.java:144)
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+  org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+  com.glodon.autotest.web.framework.selenium.SeleniumEngine.init(SeleniumEngine.java:131)
   com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:368)
   com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
   com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
@@ -51,81 +151,64 @@ Session ID: 7484a152-797c-44d4-b81a-ddf15fc2b1e8
   org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
   org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
   org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-  org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
-  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
-  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-  org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
-  org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
-  com.glodon.autotest.web.framework.selenium.SeleniumEngine.init(SeleniumEngine.java:144)
-  com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:368)
-  com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
-  com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)
-  test.InitTest.init(InitTest.java:23)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-  org.testng.TestRunner.beforeRun(TestRunner.java:648)
-  org.testng.TestRunner.run(TestRunner.java:616)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-  org.testng.SuiteRunner.run(SuiteRunner.java:261)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-  org.testng.TestNG.run(TestNG.java:1048)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.net.ConnectException: Connection refused: connect
-  java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-  java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-  java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-  java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-  java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-  java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-  java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-  java.net.Socket.connect(Socket.java:589)
-  org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-  org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
-  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
-  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
-  org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
-  org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
-  com.glodon.autotest.web.framework.selenium.SeleniumEngine.init(SeleniumEngine.java:144)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ozilla.org.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1526974099874	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1526974099874	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1526974099875	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1526974099876	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1526974099891	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\websensehelper@mozilla.org.xpi
+1526974099892	addons.xpi	DEBUG	Calling bootstrap method startup on websensehelper@mozilla.org version 1.0
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1526974099894	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1526974099894	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1526974099894	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1526974099895	addons.manager	DEBUG	Starting provider: GMPProvider
+1526974099901	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1526974099902	addons.manager	DEBUG	Starting provider: PluginProvider
+1526974099902	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1526974099902	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1526974099903	addons.manager	DEBUG	Completed startup sequence
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1526974101460	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1526974101460	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1526974101461	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1526974101462	DeferredSave.extensions.json	DEBUG	Starting write
+1526974101785	addons.repository	DEBUG	No addons.json found.
+1526974101786	DeferredSave.addons.json	DEBUG	Save changes
+1526974101790	DeferredSave.addons.json	DEBUG	Starting timer
+1526974101821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1526974101822	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1526974101826	DeferredSave.extensions.json	DEBUG	Write succeeded
+1526974101827	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1526974101846	DeferredSave.addons.json	DEBUG	Starting write
+1526974101856	DeferredSave.addons.json	DEBUG	Write succeeded
+1526974116394	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.0
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.2
+1526974116395	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.3.2
+1526974116397	addons.xpi	DEBUG	Calling bootstrap method shutdown on websensehelper@mozilla.org version 1.0
+1526974116591	addons.manager	DEBUG	shutdown
+1526974116591	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1526974116591	addons.xpi	DEBUG	shutdown
+1526974116591	addons.xpi-utils	DEBUG	shutdown
+1526974116592	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1526974116593	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1526974116594	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1526974116596	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1526974116598	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1526974116601	addons.manager	DEBUG	Async provider shutdown done
+
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+  org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+  com.glodon.autotest.web.framework.selenium.SeleniumEngine.init(SeleniumEngine.java:131)
   com.glodon.autotest.web.framework.settings.SettingUtil.parse(SettingUtil.java:368)
   com.glodon.autotest.web.framework.settings.SettingUtil.read(SettingUtil.java:207)
   com.glodon.autotest.web.framework.settings.SettingUtil.readFromClassPath(SettingUtil.java:159)

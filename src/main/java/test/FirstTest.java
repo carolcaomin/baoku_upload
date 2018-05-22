@@ -3,6 +3,7 @@ package test;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
@@ -37,9 +38,14 @@ public class FirstTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	
+		
 		firstPage=InitTest.settingUtil.getPage(FirstPage.class);
-		firstPage.putData("param.url", prop.getProperty(systemUrl));
+		//firstPage.putData("param.url", prop.getProperty(systemUrl));
+		try {
+			firstPage.putData("param.url",new String(prop.getProperty(systemUrl).getBytes("ISO-8859-1"),"UTF-8"));
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
 		ThreadUtil.silentSleep(3000);
 		
 		//打开登录页面

@@ -27,7 +27,9 @@
     <classes>
       <class name="test.AnlianTravelTest">
         <methods>
+          <include name="travelMethod" invocation-numbers="0"/>
           <include name="beforeClass"/>
+          <include name="basic" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.AnlianTravelTest -->
       <class name="test.InitTest">

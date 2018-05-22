@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.glodon.autotest.web.framework.util.ThreadUtil;
 
+import junit.framework.Assert;
 import page.AnxinAllFamilyPage;
 
 
@@ -48,5 +49,10 @@ public class AnxinAllFamilyTest {
 		ThreadUtil.silentSleep(3000);
 		anxinAllFamilyPage.getLijiAFBtn().click();
 		ThreadUtil.silentSleep(3000);
+		
+		//添加断言   获取打开页面标题,验证title正确 ,订单详情
+    	String title=driver.getTitle();
+    	logger.info("打开的页面标题为："+title);    	
+    	Assert.assertEquals("订单详情",driver.getTitle());
 	}
 }

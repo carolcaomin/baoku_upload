@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 import com.glodon.autotest.web.framework.util.ThreadUtil;
 
+import junit.framework.Assert;
 import page.AnlianTravelPage;
 
 /*
@@ -41,7 +42,8 @@ public class AnlianTravelTest{
     	//正确的用户名、密码，登录成功，验证title正确
     	String title=driver.getTitle();
     	logger.info("打开的页面标题为："+title);
-    	assert title.equals(title);
+    	assert title.equals("境内旅行保障计划");
+    	
     	//立即投保
     	anlianTravelPage.getInsuredBtn().click();
 		logger.info("-----立即投保-----");
@@ -49,21 +51,27 @@ public class AnlianTravelTest{
 		
 	    if(travelType.equals("惠游版")){
 	    	anlianTravelPage.getInsureBtn2().click();
+	    		    		
 	    }else if(travelType.equals("畅游版")){
 	    	anlianTravelPage.getChangTravelBtn().click();
 	    	anlianTravelPage.getInsureBtn2().click();
 	    }else if(travelType.equals("嗨游版")){
 	    	anlianTravelPage.getHaiBtn().click();
 	    	anlianTravelPage.getInsureBtn2().click();
-	    }
-    	
+	    } 
+	    
+	    ThreadUtil.silentSleep(3000);
+	    //添加断言
+    	String  actual=driver.getPageSource();
+    	boolean condition=actual.contains(travelType);
+    	logger.info("页面跳转到"+travelType+"结果为："+condition);
+    	assert condition;
     }
     
     @Parameters({"nameHolder","idHolder","telHolder","emailHolder"})
     @Test
     public void basic(String nameHolder,String idHolder,String telHolder,String emailHolder){
     	logger.info("-----basicInfo  successful-----");
-    	ThreadUtil.silentSleep(2000);
     	//起保日期
     	anlianTravelPage.getBeginDate().click();
     	ThreadUtil.silentSleep(2000);
@@ -80,6 +88,11 @@ public class AnlianTravelTest{
     	ThreadUtil.silentSleep(2000);
     	anlianTravelPage.getSureBtn().click();
     	ThreadUtil.silentSleep(2000);
+    	
+    	//添加断言   获取打开页面标题,验证title正确 ,订单详情
+    	String title=driver.getTitle();
+    	logger.info("打开的页面标题为："+title);    	
+    	Assert.assertEquals("订单详情",driver.getTitle());
     }
     
 }
